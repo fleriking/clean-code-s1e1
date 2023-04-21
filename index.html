@@ -2,26 +2,26 @@
 <html>
 <head>
   <title>Todo App</title>
-  <link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet'>
+  <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700" rel="stylesheet">
   <link rel="stylesheet" href="style.css" media="screen" charset="utf-8">
 </head>
 <body class="main-container">
   <div class="header">
     <img class="header__logo" src="./eisenhower-matrix.jpg">
-    <a class='header__link' href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
+    <a class="header__link" href="https://goal-life.com/page/method/matrix-eisenhower">Want more details?</a>
   </div>
   <div class="tasks">
-    <p id='section-add-task'>
+    <p id="section-add-task">
       <label for="new-task" class="tasks__title tasks__title--new-task">Add Item</label>
     <div class="tasks__wrapper">
-      <input id='new-task' class="tasks__task-name tasks__task-name--width tasks__task-name--input-text" type="text">
+      <input id="new-task" class="tasks__task-name tasks__task-name--width tasks__task-name--input-text" type="text">
       <button class="button">Add</button>
     </div>
     </p>
     <h3 class="tasks__title">Todo</h3>
-    <ul class="tasks__list-wrapper" id='incomplete-tasks'>
+    <ul class="tasks__list-wrapper" id="incomplete-tasks">
       <li class="tasks__item">
-        <input type='checkbox' class="tasks__checkbox">
+        <input type="checkbox" class="tasks__checkbox">
         <label class="tasks__task-name tasks__task-name--label">Pay Bills</label>
         <input type="text" class="tasks__task-name tasks__task-name--added-width tasks__task-name--not-display tasks__task-name--input-text">
         <button class="button button__edit">Edit</button>
@@ -33,7 +33,7 @@
         <input type="checkbox" class="tasks__checkbox">
         <label class="tasks__task-name tasks__task-name--label tasks__task-name--not-display">Go Shopping</label>
         <input type="text" value="Go Shopping" class="tasks__task-name tasks__task-name--added-width tasks__task-name--edit tasks__task-name--input-text">
-        <button class='button button__edit'>Save</button>
+        <button class="button button__edit">Save</button>
         <button class="button button__delete">
           <img class="button__img" src="./remove.svg">
         </button>
